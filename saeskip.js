@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         SAE Digital - SAEskip
 // @namespace    https://github.com/teogabrielofc/saeskip
-// @version      1.1
+// @version      1.2
 // @description  Um UserScript para a VideoAula do ava.sae.digital ficar 100% Automaticamente
 // @match        *://ava.sae.digital/*
 // @grant        none
+// @downloadURL https://raw.githubusercontent.com/teogabrielofc/saeskip/refs/heads/main/saeskip.js
+// @updateURL https://raw.githubusercontent.com/teogabrielofc/saeskip/refs/heads/main/saeskip.js
 // ==/UserScript==
 
 (function() {
