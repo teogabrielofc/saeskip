@@ -10,7 +10,7 @@ Ele funciona interceptando um post pro api do ava falando que o vídeo está em 
 ## Instalação
 
 1: Instale uma extensão para gerenciar UserScripts (recomendo o TamperMonkey).
-2: Instale o UserScript deste link: https://raw.githubusercontent.com/teogabrielofc/saeskip/refs/heads/main/saeskip.js
+2: Instale o UserScript deste link: https://greasyfork.org/pt-BR/scripts/530460-saeskip
 3: Acesse a videoaula, assista apenas 1%, aguarde 5 segundos, recarregue a página e pronto! O progresso estará em 100%.
 
     
