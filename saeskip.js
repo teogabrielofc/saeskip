@@ -7,6 +7,7 @@
 // @grant        none
 // @downloadURL https://raw.githubusercontent.com/teogabrielofc/saeskip/refs/heads/main/saeskip.js
 // @updateURL https://raw.githubusercontent.com/teogabrielofc/saeskip/refs/heads/main/saeskip.js
+// @license GNU GPLv3
 // ==/UserScript==
 
 (function() {
