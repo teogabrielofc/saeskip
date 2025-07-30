@@ -1,9 +1,7 @@
 
 # SAEskip
 
-Um UserScript para a VideoAula do ava.sae.digital ficar 100% Automaticamente
-
-Ele funciona interceptando um post pro api do ava falando que o vídeo está em tal porcentagem e modificando pra a porcentagem ficar 100%.
+Um UserScript para o AVA SAE DIGITAL que ativa o modo professor no livro digita(depois de 5 segundos), ativa a opção de selecionar e texto e faz o player ficar 100% auto.
 
 
 
@@ -11,14 +9,16 @@ Ele funciona interceptando um post pro api do ava falando que o vídeo está em 
 
 1: Instale uma extensão para gerenciar UserScripts (recomendo o TamperMonkey).
 2: Instale o UserScript deste link: https://greasyfork.org/pt-BR/scripts/530460-saeskip
-3: Acesse a videoaula, assista apenas 1%, aguarde 5 segundos, recarregue a página e pronto! O progresso estará em 100%.
+3: Pronto! Você já pode usar.
 
     
 ## FAQ
 
 #### Como funciona?
 
-Ele funciona interceptando um post para apis.sae.digital/ava/answer/video e modificando o request mudando a porcentagem para 100
+O modo professor funciona adicionando o "activeProfessor".
+
+O player funciona interceptando um post para apis.sae.digital/ava/answer/video e modificando o request mudando a porcentagem para 100
 
 #### Você fez o UserScript?
 
