@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SAEskip
 // @namespace    https://github.com/teogabrielofc/saeskip
-// @version      2.0
+// @version      2.1
 // @description  Um UserScript para o AVA SAE DIGITAL que ativa o modo professor no livro digita(depois de 5 segundos), ativa a opção de selecionar e texto e faz o player ficar 100% auto
 // @match        *://livrodigital.sae.digital/*
 // @match        *://ava.sae.digital/_n/*
@@ -14,12 +14,15 @@
     'use strict';
 
     // libera o texto nas trilhas
+    setTimeout(() => {
     document.onselectstart = null;
     document.querySelectorAll('*').forEach(element => {
         element.onselectstart = null;
         element.style.userSelect = 'auto';
         element.style.webkitUserSelect = 'auto';
     });
+}, 5000); //botei timeout pq acho que o código é executado antes do texto ser bloqueado
+
 
     // função pra ativar o modo professor
    function ativarModoProfessor() {
