@@ -1,4 +1,4 @@
-# ⚠️ PROJETO DESCONTINUADO / PROJECT DISCONTINUED
+# ⚠️ PROJETO DESCONTINUADO
 
 Este projeto foi **descontinuado** em 2026. A escola onde eu estudava mudou para o **Sistema de Ensino pH**, que utiliza o AVA do **Plurall**, então não tenho mais acesso ao AVA SAE para continuar trabalhando no projeto.
 
